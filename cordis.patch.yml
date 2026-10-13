@@ -2,6 +2,7 @@
 #   coalesceMs: delta merge window in ms (default 50; 0 disables coalescing)
 #   compression: false disables permessage-deflate on /api/remote.mux
 #   deflate: extra ws PerMessageDeflate options (default { threshold: 128 })
+#            threshold applies only without negotiated server context takeover
 - insert:
     - id: stream-tuning
       name: 'dsh-stream-tuning'
