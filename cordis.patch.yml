@@ -1,0 +1,7 @@
+# Bundle patch: mount the plugin row. Optional config:
+#   coalesceMs: delta merge window in ms (default 50; 0 disables coalescing)
+#   compression: false disables permessage-deflate on /api/remote.mux
+#   deflate: extra ws PerMessageDeflate options (default { threshold: 128 })
+- insert:
+    - id: stream-tuning
+      name: 'dsh-stream-tuning'
