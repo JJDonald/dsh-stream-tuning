@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "description": "Coalesces DSH model-stream deltas and enables WebSocket compression on the Web UI's Remote mux, so the live stream stays smooth over a high-latency link.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJDonald/dsh-stream-tuning.git"
+  },
+  "homepage": "https://github.com/JJDonald/dsh-stream-tuning",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
